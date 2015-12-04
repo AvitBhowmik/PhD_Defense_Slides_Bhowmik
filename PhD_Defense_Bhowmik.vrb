@@ -1,0 +1,9 @@
+\frametitle{We estimated area and population at risk \protect\\ by comparing to ``WHO'' guideline thresholds}
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/Prediction_example.png}\\
+  Model validation: \small \alert{Index of agreement ($d$)}, \alert{Root mean squared deviation error ($RMSDE$)} and \alert{Standard deviation of prediction z-scores ($SDZ$)}\\
+  \pause \vspace{-0.3cm} \normalsize
+  \begin{equation*}
+    RQ_{T,z} = \frac{\hat{C}_{z,0}}{C_{WHO-T}}
+    \end{equation*}\\
+  \alert{RQ>1} at risk \alert{RQ $\leq$ 1} negligible risk \footnotesize{(WHO, 2011)}
